@@ -89,6 +89,7 @@ public class NumberTriangle {
      */
     public int retrieve(String path) {
         NumberTriangle cur = this;
+
         if (path == null || path.isEmpty()) return cur.root;
 
         for (int i = 0; i < path.length(); i++) {
